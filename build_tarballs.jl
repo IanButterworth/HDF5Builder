@@ -1,4 +1,7 @@
-using BinaryBuilder, Compat
+using BinaryBuilder
+
+name = "HDF5"
+version = v"1.10.5"
 
 # Collection of sources required to build HDF5.  Use the CMake download because
 # it includes appropriate zlib and szip sources, letting us build them into libhdf5.
@@ -39,4 +42,4 @@ dependencies = [
 ]
 
 # Build the tarballs, and possibly a `build.jl` as well.
-build_tarballs(ARGS, "HDF5", sources, script, platforms, products, dependencies)
+build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies)
