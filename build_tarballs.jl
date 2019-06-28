@@ -7,7 +7,7 @@ version = v"1.10.5"
 # it includes appropriate zlib and szip sources, letting us build them into libhdf5.
 sources = [
     "https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/CMake-hdf5-1.10.5.tar.gz" =>
-    "1edc45f5065597a72ecf0663786c07aa89ecb4cfbaf025496c399b5ab1b6085e"
+    "339bbc4594b6d71ed0794b0861af231bdd06bcc71c8a81563763f72455c1c5c2"
 ]
 
 # Bash recipe for building across all platforms
